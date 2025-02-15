@@ -1,12 +1,12 @@
 import DbRedes from "../Data/DbRedes";
 
 interface RedesProps {
-  dark?: boolean;
+  dark: boolean;
 }
 
 function Redes({ dark }: RedesProps) {
   return (
-    <section className="flex flex-col gap-5 mt-10">
+    <section className="flex flex-col gap-5 mt-10 md:grid md:grid-cols-2 xl:grid-cols-4">
       {DbRedes.map((item, index) => (
         <div
           key={index}
