@@ -1,12 +1,11 @@
 import { useState } from "react";
+import Redes from "./components/Redes";
 
 function App() {
   const [dark, setDark] = useState(false);
 
   return (
-    <div
-      className={`h-dvh p-5 ${dark ? "bg-VeryPaleBlue" : "bg-VeryDarkBlueBG"}`}
-    >
+    <div className={`h-full p-5 ${dark ? "bg-white" : "bg-VeryDarkBlueBG"}`}>
       <header className="flex flex-col mt-5 gap-5">
         <div>
           <h2
@@ -41,6 +40,7 @@ function App() {
           </button>
         </div>
       </header>
+      <Redes dark={dark} />
     </div>
   );
 }
