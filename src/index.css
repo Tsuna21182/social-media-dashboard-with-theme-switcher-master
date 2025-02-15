@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@theme {
+  /* Primary */
+
+  --color-LimeGreen: #1db489;
+  --color-BrightRed: #dc414c;
+
+  --color-Facebook: #198ff5;
+  --color-Twitter: #1ca0f2;
+  --color-Instagram: linear-gradient(45deg, #fdc468, #df4996);
+  --color-YouTube: #c4032a;
+
+  /* Dark Theme */
+
+  --color-ToggleDark: linear-gradient(
+    45deg,
+    #378fe6,
+    to #3eda82
+  ); /* bg button*/
+
+  /* Light Theme */
+
+  --color-ToggleLight: #aeb3cb;
+
+  /*Neutral */
+
+  --color-White: #ffffff; /* text*/
+
+  /* Dark Theme */
+
+  --color-VeryDarkBlueBG: #1e202a; /* bg */
+  --color-VeryDarkBlueTG: #1f212e; /* top bg pattern */
+  --color-DarkDesaturatedBlueCB: #252a41; /* card bg */
+  --color-DesaturatedBlueT: #8b97c6; /* text */
+
+  /* Light Theme */
+
+  --color-VeryPaleBlue: #f5f7ff; /* top bg pattern */
+  --color-LightGrayishBlue: #f0f2fa; /* card bg */
+  --color-DarkGrayishBlue: #63687e; /* text */
+  --color-VeryDarkBlue: #1e202a; /* text */
+
+  /* font */
+
+  --font-display: "Inter", serif;
+}
