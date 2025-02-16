@@ -22,9 +22,9 @@ function Header({ dark, onClick }: HeaderProps) {
       <div className="flex justify-between xl:gap-5">
         <p className="text-DarkGrayishBlue font-bold text-xl">Dark Mode</p>
         <button
-          className={`w-16 h-8 rounded-full flex items-center p-1 transition-colors ${
+          className={`w-16 h-8 rounded-full flex items-center p-1 transition-colors cursor-pointer duration-200 ${
             dark
-              ? "bg-ToggleLight"
+              ? "bg-ToggleLight hover:bg-gradient-to-r from-[#378fe6] to-[#3eda82]"
               : "bg-gradient-to-r from-[#378fe6] to-[#3eda82]"
           }`}
           onClick={onClick}

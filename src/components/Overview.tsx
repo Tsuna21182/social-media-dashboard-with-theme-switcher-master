@@ -10,8 +10,10 @@ function Overview({ dark }: OverviewProps) {
       {DbToday.map((item) => (
         <div
           key={item.name}
-          className={`rounded-xl w-full p-8 flex justify-between ${
-            dark ? "bg-LightGrayishBlue" : "bg-DarkDesaturatedBlueCB"
+          className={`rounded-xl w-full p-8 flex justify-between duration-200 cursor-pointer ${
+            dark
+              ? "bg-LightGrayishBlue hover:bg-ToggleLight"
+              : "bg-DarkDesaturatedBlueCB hover:bg-DarkGrayishBlue"
           }`}
         >
           <div className="flex flex-col gap-6">

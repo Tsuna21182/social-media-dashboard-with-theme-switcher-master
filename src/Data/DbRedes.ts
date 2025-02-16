@@ -6,6 +6,7 @@ const DbRedes = [
     today: 12,
     up: "/images/icon-up.svg",
     color: "text-LimeGreen",
+    borderColor: "border-Facebook",
   },
   {
     image: "/images/icon-twitter.svg",
@@ -14,6 +15,7 @@ const DbRedes = [
     today: 99,
     up: "/images/icon-up.svg",
     color: "text-LimeGreen",
+    borderColor: "border-Twitter",
   },
   {
     image: "/images/icon-instagram.svg",
@@ -22,6 +24,7 @@ const DbRedes = [
     today: 1099,
     up: "/images/icon-up.svg",
     color: "text-LimeGreen",
+    borderColor: "border-Instagram",
   },
   {
     image: "/images/icon-youtube.svg",
@@ -30,6 +33,7 @@ const DbRedes = [
     today: 144,
     up: "/images/icon-down.svg",
     color: "text-BrightRed",
+    borderColor: "border-YouTube",
   },
 ];
 

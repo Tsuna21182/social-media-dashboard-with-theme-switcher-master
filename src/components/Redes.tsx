@@ -10,8 +10,12 @@ function Redes({ dark }: RedesProps) {
       {DbRedes.map((item, index) => (
         <div
           key={index}
-          className={`rounded-xl w-full text-center p-8 ${
-            dark ? "bg-LightGrayishBlue" : "bg-DarkDesaturatedBlueCB"
+          className={`rounded-xl w-full text-center p-8 border-t-8 duration-200 cursor-pointer ${
+            item.borderColor
+          } ${
+            dark
+              ? "bg-LightGrayishBlue hover:bg-ToggleLight"
+              : "bg-DarkDesaturatedBlueCB hover:bg-DarkGrayishBlue"
           }`}
         >
           <div className=" flex flex-col items-center">
