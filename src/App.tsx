@@ -21,7 +21,7 @@ function App() {
   }, [dark]);
 
   return (
-    <main className="p-5">
+    <main className="p-5 xl:px-50 xl:mt-20">
       <Header dark={dark} onClick={handleChange} />
       <Redes dark={dark} />
       <h2
