@@ -14,7 +14,7 @@ function Redes({ dark }: RedesProps) {
             dark ? "bg-LightGrayishBlue" : "bg-DarkDesaturatedBlueCB"
           }`}
         >
-          <div>
+          <div className=" flex flex-col items-center">
             <div className="flex gap-3 justify-center">
               <img src={item.image} alt="imagen redes" />
               <p
@@ -33,7 +33,10 @@ function Redes({ dark }: RedesProps) {
               {item.total}
             </p>
             <p className="text-DesaturatedBlueT uppercase">followers</p>
-            <p className="font-bold mt-5">{item.today}</p>
+            <div className={`flex items-center gap-3 mt-5 ${item.color}`}>
+              <img src={item.up} alt="imagen icono" className="h-2" />
+              <p className="font-bold">{item.today}Today</p>
+            </div>
           </div>
         </div>
       ))}

@@ -6,12 +6,10 @@ export type DbRedesProps = [
 ];
 
 export type DbTodayProps = [
-  views: number,
-  likesFace: number,
-  likesInsta: number,
-  viewsInsta: number,
-  retweets: number,
-  likeTweet: number,
-  like: number,
-  totalViews: number
+  image: string,
+  name: string,
+  number: string,
+  porcentaje: number,
+  up: string,
+  color: string
 ];
